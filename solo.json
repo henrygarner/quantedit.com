@@ -1,0 +1,6 @@
+{
+  "id" : "quantedit.com",
+  "bind_domains" : "quantedit.com quantedit.co.uk",
+  "deploy_to" : "/srv/quantedit.com",
+  "run_list": ["recipe[quantedit::default]"]
+}

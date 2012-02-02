@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Jurassic - the app</title>
+
+<style type="text/css">
+<!--
+#wrapper {
+	text-align: left;
+	margin: 0px auto;
+	padding: 0px;
+	border:0;
+	width: 1060px;
+	background: url(gfx/iphones.gif) no-repeat;
+	height: 800px;
+}
+
+#leftside {
+	float: left;
+	width: 320px;
+	margin-right: 30px;
+	margin-left: 23px;
+	margin-top: 36px;
+}
+
+#rightside {
+	float: right;
+	width: 465px;
+}
+
+#middlediv { 
+	float: left;
+	width: 20%;
+}
+
+#portrait {
+	height: 277px;
+	width: 184px;
+	top: 99px;
+	position: relative;
+	left: 20px;
+}
+
+#landscape {
+	height: 184px;
+	width: 277px;
+	top: 182px;
+	position: relative;
+	left: 90px;
+}
+
+body {
+	background-image: url(gfx/bg.gif);
+	background-repeat: repeat-x;
+	margin-top: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+#p_lower {
+	height: 25px;
+	width: 184px;
+	top: 180px;
+	position: relative;
+	left: 20px;
+}
+
+#l_lower {
+	height: 25px;
+	width: 277px;
+	top: 214px;
+	position: relative;
+	left: 90px;
+}
+
+h2 {
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+#applink {
+	height: 59px;
+	width: 180px;
+	top: 100px;
+	position: relative;
+	left: 136px;
+}
+#logo {
+	float: left;
+	width: 320px;
+	background-image: url(gfx/jurassic_logo.png);
+	height: 160px;
+	background-repeat: no-repeat;
+}
+-->
+</style>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('gfx/portrait_02.jpg','gfx/landscape_02.jpg','gfx/landscape_03.jpg')">
+
+<div id="wrapper">
+
+	<div id="container">
+
+		<div id="leftside">
+		  <div id="logo">
+		  </div>
+		  <h2>Take a walk through time &#8230;</h2>
+		    <p class="white">England&#8217;s Jurassic Coast reveals 185 million years of geological and evolutionary history in just 95 miles!</p>
+		    <p><strong>A Natural World Heritage Site</strong>, it covers the southern coast from East Devon to Dorset, where changing geology and erosion has created an environment of great diversity and beauty, offering key insight into the Earth&#8217;s development and the evolution of life.</p>
+		    <p>The rocks and fossils tell a fascinating story of ancient deserts, tropical seas and dinosaur infested swamps.</p>
+		    <p>Explore The Jurassic Coast&#8217;s unique features by panning through painstakingly assembled offshore photography covering the length of the coast. Other resources include animations which explain geological sequences and plentiful expert notes.</p>
+		    <p>Developed by Quantedit, Jurassic is <strong>a free app</strong>, available on the iPhone App Store.</p>
+			<p>Support/feedback:
+							<script language="JavaScript">
+							<!-- Begin
+							user = "jurassicapp";
+							site = "quantedit.com";
+							document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+							document.write(user + '@' + site + '</a>');
+							// End -->
+							</script> 
+						</p>
+		</div>		
+		<div id="middlediv">
+			<div id="portrait">
+				<img src="gfx/portrait_01.jpg" name="p_img_01" id="p_img_01" />
+			</div>
+			<div id="p_lower">
+				<img src="gfx/blank.gif" width="67" height="25" /><a href="javascript:;" onclick="MM_swapImage('p1','','gfx/sel.gif',1);MM_swapImage('p2','','gfx/non_sel.gif',1);MM_swapImage('p_img_01','','gfx/portrait_01.jpg',0)"><img src="gfx/sel.gif" name="p1" width="25" height="25" border="0" id="p1" /></a><a href="javascript:;" onclick="MM_swapImage('p2','','gfx/sel.gif',1);MM_swapImage('p_img_01','','gfx/portrait_02.jpg',1);MM_swapImage('p1','','gfx/non_sel.gif',1)"><img src="gfx/non_sel.gif" name="p2" width="25" height="25" border="0" id="p2" /></a><img src="gfx/blank.gif" width="67" height="25" />
+			</div>
+	  </div>
+		
+		 <div id="rightside">
+		    <div id="applink">
+				<a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=342122686&amp;mt=8" target="_blank"><img src="gfx/blank.gif" width="180" height="59" border="0" /></a>
+			</div>
+		    <div id="landscape">
+				<img src="gfx/landscape_01.jpg" name="l_img" id="l_img" />
+			</div>
+		    <div id="l_lower">
+				<img src="gfx/blank.gif" width="101" height="25" /><a href="javascript:;" onclick="MM_swapImage('l1','','gfx/sel.gif',0);MM_swapImage('l2','','gfx/non_sel.gif',0);MM_swapImage('l3','','gfx/non_sel.gif',0);MM_swapImage('l_img','','gfx/landscape_01.jpg',0)"><img src="gfx/sel.gif" name="l1" width="25" height="25" border="0" id="l1" /></a><a href="javascript:;" onclick="MM_swapImage('l2','','gfx/sel.gif',0);MM_swapImage('l1','','gfx/non_sel.gif',0);MM_swapImage('l3','','gfx/non_sel.gif',0);MM_swapImage('l_img','','gfx/landscape_02.jpg',1)"><img src="gfx/non_sel.gif" name="l2" width="25" height="25" border="0" id="l2" /></a><a href="javascript:;" onclick="MM_swapImage('l3','','gfx/sel.gif',0);MM_swapImage('l1','','gfx/non_sel.gif',0);MM_swapImage('l2','','gfx/non_sel.gif',0);MM_swapImage('l_img','','gfx/landscape_03.jpg',1)"><img src="gfx/non_sel.gif" name="l3" width="25" height="25" border="0" id="l3" /></a><img src="gfx/blank.gif" width="101" height="25" />
+			</div>
+	  </div>
+
+	</div>
+
+</div>
+
+</body>
+</html>

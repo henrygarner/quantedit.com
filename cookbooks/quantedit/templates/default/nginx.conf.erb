@@ -1,0 +1,12 @@
+## This file rendered by Chef ##
+## Local changes will be nuked from orbit ##
+
+server {
+  listen 80;
+  client_max_body_size 4G;
+  server_name <%= @node['bind_domains'] %>;
+  keepalive_timeout 5;
+
+  root <%= @node['deploy_to'] %>;
+  index index.html;
+}
