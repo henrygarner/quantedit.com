@@ -8,5 +8,8 @@ server {
   keepalive_timeout 5;
 
   root <%= @node['deploy_to'] %>;
+  location / {
+    rewrite ^/$ $scheme://$host/jurassic;
+  }
   index index.html;
 }
